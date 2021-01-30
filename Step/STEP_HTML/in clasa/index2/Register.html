@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript">
+			function butonulmeu()
+			{
+				alert("Pagina lipseste");
+			}
+		</script>
+
+		<meta charset="utf-8">
+		<title>A doua project</title>
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		
+
+
+
+	</head>
+
+	<body>
+		
+		
+		<header>
+			<!-- Aici o sa fie header-ul -->
+
+			<h1> Site-ul meu </h1>
+			<p> Пфзпоф опешщйу  гптвфпг гтйузгкпт грыавнше</p>
+
+			
+
+		</header>
+
+		<nav>
+				<a href="Index.html">
+					<i class="fa fa-home"></i>
+					 Acasa </a>
+				<a href="Gallery.html">
+					<i class="fa fa-photo" style="font-size: 18px;"></i>
+					 Galerie </a>
+				<a href="Contact.html">
+					<i class="fa fa-phone" style="font-size: 18px;"></i>
+					 Contact</a>
+					 
+				<a href="Register.html" class="active"> 
+					<i class="fa fa-address-book" style="font-size: 18px;"></i>
+					 Inregistrare </a>
+				 
+				 <a href="Pay.html"> 
+				<i class="fa fa-money" style="font-size: 18px;"></i>
+				 Plateste </a>
+					
+					
+				<span id="aliniere-dreapta"><a href="About.html"> 
+				<i class="fa fa-info-circle" style="font-size: 18px;"></i>
+				 Despre</a></span>
+				
+		</nav>
+
+		
+		<div id="main">
+			<!-- Aici o sa fie continutul<br> -->
+			
+
+			<div class="background" id="content">
+				
+				
+				<form>
+		
+			<fieldset>
+				
+				<legend>Date hotel/camera</legend>
+					
+				<label>Limba de comunicare</label><br>
+					<input type="checkbox" name="romana" id="romana" value="Romana">
+					<label for="romana">Romana</label><br>
+					<input type="checkbox" name="engleza" id="engleza" value="Engleza">
+					<label for="romana">Engleza</label><br>
+					<input type="checkbox" name="rusa" id="rusa" value="Rusa">
+					<label for="rusa">Rusa</label><br>		
+					<input type="checkbox" name="turca" id="turca" value="Turca">
+					<label for="turca">Turca</label><br><br>	
+					
+				
+				
+				<label for="data_intrarii">Data intrarii</label><br>
+				<input type="date" name="data_intrarii" max="2020-08-24" min="2020-07-24"><br>
+				<label for="data_iesirii">Data iesirii</label><br>
+				<input type="date" name="data_iesirii" max="2020-08-27" min="2020-07-27"><br><br>
+				
+				
+				<label for="tipul_camerei">Tipul camerei :</label><br>
+					<input type="radio" name="tipul_camerei" id="family" value="family">
+					<label>Family</label><br>
+					<input type="radio" name="tipul_camerei" id="standard" value="standard">
+					<label>Standard</label><br>
+					<input type="radio" name="tipul_camerei" id="vip" value="vip">
+					<label>VIP</label><br> <br>
+				
+				<label for="seaview">Sea View :</label><br>
+					<input type="radio" name="seaview" id="yes" value="yes">
+					<label>Yes</label><br>
+					<input type="radio" name="seaview" id="no" value="no">
+					<label>No</label><br> <br>
+				
+				<label for="serv_add">Servicii aditionale :</label><br>
+					<input type="checkbox" name="serv_add" id="telefon" value="telefon">
+					<label>Telefon</label><br>
+					<input type="checkbox" name="serv_add" id="safeu" value="safeu">
+					<label>Safeu</label><br>
+					<input type="checkbox" name="serv_add" id="tvultrahd" value="tvultrahd">
+					<label>TV Ultra HD</label><br>
+					<input type="checkbox" name="serv_add" id="deservire" value="deservire">
+					<label>Deservire in camera</label><br> <br>
+					
+				</fieldset>
+				
+				<fieldset>
+				
+					<legend>Date client</legend>
+						
+					<fieldset>
+						<legend>Adulti</legend>
+							
+						<label>Numar de adulti : </label>
+						<select>
+							<option value="unadult">Un adult</option>
+							<option value="doiadulti" selected="">Doi adulti</option>
+						</select>
+						
+						<fieldset>
+							<legend>Primul adult</legend>
+							<label for="nume">Introdu numele:</label><br>
+							<input type="text" name="nume"><br> <br>
+							<label for="prenume">Introdu prenumele:</label><br>
+							<input type="text" name="prenume"><br> <br>
+							<label for="varsta">Introdu varsta:</label><br>
+							<input type="number" name="varsta" min="18" max="150"><br> <br>
+							
+							<label for="cpas">Copia pasaport:</label>
+							<input type="file" name="cpas">
+						</fieldset>
+						
+						<fieldset>
+							<legend>Al doilea adult</legend>
+							<label for="nume">Introdu numele:</label><br>
+							<input type="text" name="nume"><br> <br>
+							<label for="prenume">Introdu prenumele:</label><br>
+							<input type="text" name="prenume"><br> <br>
+							<label for="varsta">Introdu varsta:</label><br>
+							<input type="number" name="varsta" min="18" max="150"><br> <br>
+							
+							<label for="cpas">Copia pasaport:</label>
+							<input type="file" name="cpas">
+						</fieldset>
+						
+							
+					</fieldset>
+					
+					<fieldset>
+						<legend>Copii</legend>
+							
+						<label>Numar de adulti : </label>
+						<select>
+							<option value="uncopil">Un copil</option>
+							<option value="doicopil" selected="">Doi copii</option>
+						</select>
+						
+						<fieldset>
+							<legend>Primul copil</legend>
+							<label for="nume">Introdu numele:</label><br>
+							<input type="text" name="nume"><br> <br>
+							<label for="prenume">Introdu prenumele:</label><br>
+							<input type="text" name="prenume"><br> <br>
+							<label for="varsta">Introdu varsta:</label><br>
+							<input type="number" name="varsta" min="0" max="17"><br> <br>
+							
+							<label for="cpas">Copia pasaport:</label>
+							<input type="file" name="cpas">
+						</fieldset>
+						
+						<fieldset>
+							<legend>Al doilea copil</legend>
+							<label for="nume">Introdu numele:</label><br>
+							<input type="text" name="nume"><br> <br>
+							<label for="prenume">Introdu prenumele:</label><br>
+							<input type="text" name="prenume"><br> <br>
+							<label for="varsta">Introdu varsta:</label><br>
+							<input type="number" name="varsta" min="0" max="17"><br> <br>
+							
+							<label for="cpas">Copia pasaport:</label>
+							<input type="file" name="cpas">
+						</fieldset>
+						
+							
+					</fieldset>
+						
+				</fieldset>
+				
+				<fieldset>
+					<legend>Date pentru contactare</legend>
+					
+						<label>Introdceti numarul de telefon</label> <br>
+						<input type="tel" name="telefon" placeholder="+373 (68) - 122 - 122" pattern="[+]{1}[0-9]{3} [0-9]{2}-[0-9]{3}-[0-9]{3}"> <br>
+					
+						<label>Introdceti emailul</label> <br>
+						<input type="email" name="email">
+						
+						
+			</fieldset>
+			<br>
+			
+			<label>Mesaj aditional</label> <br>
+			<textarea name="mesajul_tau" cols="80" rows="6"></textarea>
+			
+			<br><br>
+			
+			<input type="submit" value="Trimite datele">
+			
+			<input type="reset" value="Reseteaza datele">
+			
+			
+		</form>
+				
+				<!--form  target="_blank">
+					
+					<label for="nume">Introdu numele:</label>
+					<br>
+					<input type="text" name="nume">
+					<br> <br>
+					<label for="prenume">Introdu prenumele:</label>
+					<br>
+					<input type="text" name="prenume">
+					
+					<br> <br>
+					
+					<label for="gen">Introdu genul:</label>
+					<br>
+					<input type="radio" name="gen" id="masculin" value="Masculin">
+					<label>Masculin</label>
+					<br>
+					<label for="gen"></label>
+					<input type="radio" name="gen" id="femenin" value="Femenin">
+					<label>Feminin</label>
+				
+					<br> <br>
+					size="3" multiple=""
+					<select name="specialitati" id="specialitati" >
+						<option value="tehnologii_informationale">Tehnologii informationale</option>	
+						<option value="marketing" selected="">Marketing</option>
+						<option value="drept">Drept</option>
+						<option value="stang" disabled="disabled">Stang</option>
+					</select>
+					
+					<br> <br>
+					
+					<label>Motivul pentru care aplici aceasta specialitate</label><br>
+					<textarea for="mesajul_tau" rows="8" cols="50">Introduceti textul</textarea>	
+
+					<fieldset>
+						<legend>Actele necesare pentru admitere</legend>
+						<label for="nume">Cerere pentru admitere</label><br>
+						<input type="text" name="nume"><br>
+						<label for="prenume">Copia buletinului</label><br>
+						<input type="text" name="prenume">
+					</fieldset>
+					
+					<br> <br>
+					
+					<label>Selecteaza materiile dorite:</label><br>
+						<input list="materiile">
+						<datalist id="materiile">
+							<option value="matematica"></option>
+							<option value="istoria"></option>
+							<option value="chimia"></option>
+						</datalist>
+					
+					<br> <br>
+					
+					<label>Introdu parola:</label><br>
+					<input type="password" name="password" minlength="6"> 
+					
+					<br> <br>
+					
+					<label>Limbe vorbite:</label><br>
+					<input type="checkbox" name="romana" id="romana" value="Romana">
+					<label for="romana">Romana</label><br>
+					<input type="checkbox" name="engleza" id="engleza" value="Engleza">
+					<label for="romana">Engleza</label><br>
+					<input type="checkbox" name="rusa" id="rusa" value="Rusa">
+					<label for="rusa">Rusa</label><br>
+					
+					<br>
+					<label for="culoarea">Selectati culoarea</label><br>
+					<input type="color" name="culoarea">
+					
+					<br>
+					<label for="data_consultarii">Data consultarii</label><br>
+					<input type="date" name="data_consultarii" max="2020-11-27" min="2020-05-27">
+					
+					<br> <br>
+				
+					<label>Introdceti emailul</label> <br>
+					<input type="email" name="email">
+					
+					<br>
+					
+					<label>Introdceti un numar</label> <br>
+					<input type="number" name="number">
+					
+					<br>
+					
+					<label>Introdceti numarul de telefon</label> <br>
+					<input type="tel" name="telefon" placeholder="+373 (68) - 122 - 122" pattern="[+]{1}[0-9]{3} [0-9]{2}-[0-9]{3}-[0-9]{3}"> <br>
+					
+					<br>
+					
+					<label for="cauta">Cauta...</label> <br>
+					<input type="search" name="cauta"> <br>
+					
+					<br>
+					
+					<label for="timpul">Selectati ora...</label> <br>
+					<input type="time" name="timpul"> <br>
+					
+					
+					<br>
+					
+					<label for="adresa">Selectati adresa</label> <br>
+					<input type="url" name="adresa"> <br>
+
+					<br>
+					
+					<label for="pretul">Selectati pretul...</label> <br>
+					<input type="range" name="pretul" min="1" max="14"> <br>
+					
+					<br>
+					
+					<label for="buletinc">Selectati copia de la buletin</label> <br>
+					<input type="file" name="buletinc">
+					
+					
+					<br> <br>
+					
+					<input type="submit" value="Trimite datele">
+				
+					<input type="reset" value="Reseteaza datele">
+					
+					
+				</form-->
+				
+			</div>
+				
+					
+
+			
+			<div id="sidebar">
+				<!-- Aici sidebar -->
+				<section>
+					<article class="articole" id="recent">
+						Articole recente
+					</article>
+					<article class="articole" id="curs-valutar">
+						curs
+					</article>
+				</section>
+			</div>
+			
+			<div id="clear"></div>
+
+		</div>	
+
+
+
+		<footer id="footer">
+				<section id="footer-stanga">
+					Copyright © Alexandru
+				</section>
+				
+				<section id="footer-dreapta">
+					<address>
+						Adresa: str.Bogdan Voievod <br>
+						Telefon: <a href="tel:069431897">069431897</a> <br>
+						Email: <a href="mailto:katariz1337@gmail.com">katariz1337@gmail.com</a>
+					</address>
+				</section>
+		</footer>
+
+		
+		
+		
+
+
+		
+	</body>
+ 
+	
+</html>

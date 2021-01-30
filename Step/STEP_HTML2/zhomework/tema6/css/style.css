@@ -1,0 +1,155 @@
+#topdiv
+{
+    background-color: #19176e;
+    line-height: 50px;
+    color: white;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+#helloworldheader
+{
+    background-color: #101050;
+    color: white;
+    padding: 55px 25px;
+}
+
+.buttonroz
+{
+    background-color: #f20c61;
+    color: white;
+    font-size: 14px;    
+    border: 0px;
+    border-radius: 2px;
+}
+.buttonroz:hover
+{background-color: #a70043;}
+
+#learnmorebuttonh
+{padding: 5px 15px;}
+
+
+
+
+#main
+{
+    margin-top: 55px;
+}
+
+.fullwidthbutton
+{
+    padding: 5px;
+    width: 100%;
+    font-size: 12px; 
+}
+
+#badgemsg
+{
+    background-color: #2e1fa6;
+}
+
+#greeting
+{
+    margin-top: 20px;
+    color: white;
+}
+
+#wlcandidate
+{
+    background-color: #908fa6;
+    line-height: 50px;
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+#sendgr
+{
+    background-color: #12114f;
+    padding: 15px;
+    font-size: 14px;
+}
+
+#edit1
+{
+    border: 0px;
+    width: 100%;
+    background-color: #1a176e;
+    border-top: 3px #54537e solid;
+    border-bottom: 4px #9090a8 solid;
+    margin-bottom: 15px;
+    color: white;
+}
+
+#idontst
+{
+    cursor: pointer;
+    display: block;
+    background-color: #3424a8;
+    font-size: 12px;
+    line-height: 40px;
+    text-decoration: underline;
+}
+
+#voting
+{
+    margin: 5px;
+    margin-top: 30px;
+    border: 1px rgb(230, 230, 230) solid;
+    padding: 8px;
+    font-size: 15px;
+}
+
+#pbpink
+{
+    background-color: #f20c61!important;
+    width: 72%;
+}
+
+#pbgreen
+{
+    background-color: #15cb89!important;
+    width: 28%;
+}
+
+#pbvote
+{
+    margin-top: 18px;
+    margin-bottom: 14px;
+    height:8px;
+    border-radius: 0px;
+}
+
+.btnvote
+{
+    width: 100%;
+    border: 0px;
+    border-radius: 0px;
+    line-height: 30px;
+}
+
+#btncool
+{
+    color: white;
+    background-color: #f20c61;
+    border: 2px #f20c61 solid; 
+}
+#btncool:hover
+{
+    background-color: #a70043;
+    border: 2px #a70043 solid; 
+}
+
+#btnlame
+{
+     border: 2px solid;
+}
+
+#footer
+{
+    margin-top: 30px;
+    background-color: #12114f;
+    line-height: 50px;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}

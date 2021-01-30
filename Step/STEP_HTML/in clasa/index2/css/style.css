@@ -1,0 +1,653 @@
+body 
+{
+
+	color: black;
+	background-color: gray;
+	font-size: 20px;
+	font-weight: 500;
+	/*background-image: url("https://wallpaperset.com/w/full/3/1/9/31130.jpg");*/
+	/*background-image: url(D:/xd/adidas_elita_wallpaper.jpg);*/
+	background-image: url(https://freehtmlthemes.ru/assets/images/articles/css-fon.jpg);
+	background-size: cover;
+
+	/*background-image: url("../images/imagine4.png");*/
+	/*, url(/images/imagine.jpg);*/
+	/*background-repeat: space;*/
+	
+
+	
+	background-attachment: fixed;
+	/*inherit - mosteneste din divul de mai sus*/
+}
+
+
+
+
+header 
+{
+	background-color: white;
+	min-height: 100px;
+	text-align: center;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.c_background_black
+{
+	/*background-color: black;*/
+}
+
+#paragraful1 
+{
+	color: red;
+}
+#paragraful2
+{
+	color: orange;
+}
+
+.class_paragraf
+{
+	/*background-color: black;*/
+	color: green;
+	font-size: 25px;
+}
+
+#paragraf_special
+{
+	color: blue;
+}
+
+
+#main
+{
+	/*background-color: #545955;*/
+	margin-top: 5px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	min-height: 400px;
+	width: auto;
+	background-image: linear-gradient(110deg,black,gray,black)
+}
+
+#content
+{
+	/*background-color: #3d403d;*/
+	float: left;
+	width: 70%;
+	min-height: 300px;
+	margin-left: 10px;
+	padding: 10px;
+	border: 3px solid white;
+	box-shadow: 3px 3px 10px white;
+	background-attachment: fixed;
+/* background-image: tipul-gradient(grade,culoare1,2,...n)   */
+	background-image: linear-gradient(105deg,darkorange,orange,yellow);
+}
+
+#sidebar
+{
+	/*background-color: #2b2e2b;*/
+	float: right;
+	width: 20%;
+	min-height: 300px;
+	margin-right: 10px;
+	padding: 10px;
+	border: 3px double white;
+	box-shadow: 3px 3px 10px white;
+	background-image: radial-gradient(yellow,orange,black);
+}
+
+
+
+#clear
+{
+	clear: both;
+}
+
+span
+{
+	color: blue;
+}
+
+ul.l1
+{
+	list-style-position: inside;
+	background-color: green;
+}
+
+ol
+{
+	/*list-style-type: upper-roman;*/
+}
+
+
+
+ul#meniu
+{
+	list-style: none; 
+	background-color: #121212;
+	overflow: hidden;
+}
+
+#meniu li
+{
+	float: left;
+}
+
+
+#meniu li a
+{
+	/*border-radius: 8px 30px;*/
+	color: white;
+	padding: 10px;
+	background-color: #171717;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	
+}	
+
+#ul
+{
+	position: sticky;
+}
+
+#meniu li a:hover
+{
+	background-color: orange;
+}	
+
+#meniu li a:active
+{
+	background-color: #c96f2a;
+}
+
+#aliniere-dreapta
+{
+	float: right;
+	margin-right: 5px;
+}
+
+
+nav
+{
+	padding: 10px;
+	background-color: black;
+
+	/*position: fixed;
+	top:0px;
+	width: 100%;
+	padding-right: 30px;*/
+
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0px;
+}
+
+nav a
+{
+	color: white;
+	text-align: center;
+	padding: 13px 14px;
+	text-decoration: none;
+
+	
+}
+
+nav a:hover
+{
+	background-color: blue;
+}
+
+nav a:active
+{
+	background-color: red;
+}
+
+nav span
+{
+	float: right;
+}
+
+nav a:last-child
+{
+	/*background-color: green;*/
+}
+nav a:first-child
+{
+	/*background-color: green;*/
+}
+nav a:nth-child(2)
+{
+	/*background-color: gray;*/
+}
+
+header p::first-letter
+{
+	font-size: 30px;
+}
+
+::selection
+{
+	background-color: red;
+	color:black;
+}
+
+.active
+{
+	background-color: red;
+}
+
+
+
+.articole
+{
+	background-color: white;
+	padding: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.imagine-articol
+{
+	background-color: gray;
+	min-height: 200px;
+}
+
+#subsol-articol
+{
+	width: auto;
+	padding-bottom: 30px;
+}
+
+#data-publicarii
+{
+	width: 50%;
+	float: left;
+}
+
+#autor
+{
+	float: right;
+	width: 50%;
+	text-align: right;
+}
+
+#recent
+{
+	min-height: 100px;
+}
+
+#curs-valutar
+{
+	min-height: 150px;
+}
+
+
+/* O SA FIE VALABIL DOAR PENTRU 
+ECRAN MAI MIC CA 600 DE PIXELI  */
+@media only screen and (max-width: 600px)
+{
+	#content
+	{
+		width: auto;
+	}
+	#sidebar
+	{
+		float: none;
+		width: auto;
+	}
+}
+
+
+.fa
+{
+	font-size: 20px;
+	color: white;
+}
+
+
+#footer
+{
+	padding: 10px 20px 10px 20px;
+	margin-top: 10px;
+	background-color: #2b2e2b;
+	min-height: 70px;
+	width: auto;
+}
+#footer-stanga
+{
+	width: 45%;
+	float:left;
+}
+#footer-dreapta
+{
+	width: 45%;
+	float:right;
+	text-align: right;
+}
+
+
+button
+{
+	border: none;
+	/*color: white;*/
+	background-image: 
+	    linear-gradient(yellow,lightgreen);
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-size: 24px;
+	cursor: pointer;
+	border-radius: 5px;
+	border: 3px solid yellow;
+	transition-duration: 0.5s;
+
+
+	/*border-style: none;
+	border-color: inline light dark color; 
+	outline: 0px;*/
+
+}
+
+button:hover
+{
+	background-image: 
+	    linear-gradient(orange,yellow,green);
+}
+
+button:active
+{
+	background-image: none;
+	background-color: black;
+	color: white;
+}
+
+
+.citeste-mai-departe
+{
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+.imagine-articol
+{
+	/*visibility: hidden;*/
+}
+
+#expractic
+{
+	margin: 20px;
+	background-color: #ffb0d4;
+}
+
+#expractic li
+{
+	padding: 5px;
+	color: white;
+	list-style-position: inside;
+	background-color: #cf6990;
+	margin-top: 8px;
+	margin-right: 40px;
+	padding-left: 15px; 
+}
+
+#expractic li span
+{	
+	margin-left: 5px;
+
+	padding: 5px;
+	color: white;
+	background-color: #a81b4c;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+form label
+{
+	color: white;
+}
+
+
+label
+{
+	padding: 5px;
+	color: black;
+	display: inline-block;
+	
+}
+
+input[type=text]
+{
+	/*border: 1px solid gray;
+	border: 1px dotted gray;*/
+	
+	color: blue;
+	width: 80%;
+	padding: 15px;
+	border-radius: 20px;
+	border: 3px dashed gray;
+}
+
+input[type=reset]
+{
+	font-size: 20px;
+	color: white;
+	background-color: red;
+	width: 250px;
+	padding: 15px;
+	border-radius: 15px;
+	border: 3px solid darkred;
+}
+
+input[type=submit]
+{
+	font-size: 20px;
+	color: white;
+	background-color: green;
+	width: 250px;
+	padding: 15px;
+	border-radius: 15px;
+	border: 3px solid darkgreen;
+}
+
+#AboutTextLogo
+{
+	font-size: 30px;
+	color: blue;
+	height: 150px;
+	width: 150px;
+	position: absolute;
+}
+
+#company
+{
+	opacity: 0;
+}
+
+#company, #slogan
+{
+	transition: opacity 0.2s linear;
+}
+
+#AboutTextLogo:hover #company
+{
+	opacity: 1;
+}
+
+#AboutTextLogo:hover #slogan
+{
+	opacity: 0;
+}
+
+
+#animatie
+{
+	height: 60px;
+	width: 60px;
+	background-color: red;
+	transition: 1s;
+	/*transition-timing-function:linear ease; */
+	transition-timing-function: ease-in-out;
+	/*transition-property: height;*/
+	animation-name: animatie;
+	animation-duration: 2.5s;
+	animation-iteration-count: 3;
+	animation-delay: 1s;	
+	
+}
+
+#animatie:hover
+{
+	height: 200px;
+	width: 200px;
+	/*background-color: orange;*/
+	/*transform: scale(1.1,1.5);*/
+	/*transform: rotate(90deg);*/
+	/*transform: skew(20deg);*/
+	/*transform: translate(25px, 30px);*/
+	/*transform: rotate3d(0,0,200,90deg);*/
+}	
+
+@keyframes animatie
+{
+	0% {background-color: red; margin-top: 0px; margin-left: 0px; height: 60px; width: 60px;}
+	25% {background-color: green; margin-top: 0px; margin-left: 200px; height: 90px; width: 90px;}
+	50% {background-color: orange; margin-top: 150px; margin-left: 200px; height: 120px; width: 120px;}
+	75% {background-color: blue; margin-top: 150px; margin-left: 0px; height: 90px; width: 90px;}
+	100% {background-color: red; margin-top: 0px; margin-left: 0px;  height: 60px; width: 60px;}
+}
+
+tr
+{
+	text-align: center;
+	/*background-color: gray;*/
+}
+
+.am
+{
+	background-color: #f5ff82;
+}
+
+.pm
+{
+	background-color: #de82ff;
+}
+
+.weekday
+{
+	text-align: left;
+}
+
+#bordertab
+{
+	height: 3px;
+	
+}
+
+
+
+
+
+#galerie
+{
+	/*width: auto;*/
+	padding: 10px;
+	background-color: white;
+	display: block;
+	overflow: hidden;
+	
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(32%, 1fr));
+	grid-gap: 15px;
+}
+
+.galerie_element
+{
+	border: 2px double black;
+	/*width: 32%;*/
+	float: left;
+	display: block;
+	margin: 2px;
+	text-align: center;
+	border-radius: 3px;
+	box-shadow: 5px 5px 5px gray;
+}
+
+.galerie_element img
+{
+	width: 100%;
+	border-radius: 30px;
+	
+	
+}
+
+.galerie_element .descriere
+{
+	padding: 10px;
+}
+
+.galerie_element, .galerie_element img
+{
+	transition-duration: 0.5s;
+}
+
+
+.galerie_element:hover
+{
+	transform: scale(1.02,1.02);
+}
+
+.galerie_element img:hover
+{
+	transform: scale(0.9,0.9);
+}
+
+
+#conttelefon
+{
+	font-size: 20px;
+	color: black;
+	width: 20%;
+	padding: 5px;
+	border-radius: 5px;
+	border: 2px solid black;
+}
+
+
+/*body {
+	color: black;
+	background-color: #faf0ff;
+	font-size: 20px;
+	font-weight: 500;
+	font-family: 'Arial Narrow', Helvetica, sans-serif;
+	word-spacing: 8px;
+	letter-spacing: 1px;
+	text-shadow: 2px 2px 4px black;
+
+
+
+	text-transform: lowercase;
+	text-transform: uppercase;
+	text-transform: capitalize;
+	
+}
+
+h1 {
+	color: red;
+	font-size: 40px;
+	text-decoration: overline;
+	writing-mode: vertical-rl;
+}
+
+h2,h3 {
+	color: #ebcc34;
+}
+
+a {
+	color: #b14ae0;
+	letter-spacing: 2px;
+	text-decoration: none;
+}
+*/

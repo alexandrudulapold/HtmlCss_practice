@@ -1,0 +1,82 @@
+.option
+{
+	float: left;
+	margin: 20px;
+	background-color: white;
+	min-height: 390px;
+	min-width: 300px;
+	box-shadow: 0px 0px 17px gray;
+	text-align: center;
+	border-radius: 15px;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
+	padding-bottom: 20px;
+	padding-top: 30px;
+	
+}
+
+.header
+{
+	font-size: 20px;
+}
+
+hr
+{
+	height: 4px;
+	border: 0px;
+}
+
+.invisible
+{
+	visibility: hidden;
+}
+
+.price
+{
+	font-size: 50px;
+}
+
+.pmtext
+{
+	color: lightgray;
+	font-size: 20px;
+}
+
+button
+{
+	border: none;
+	color: white;
+	font-size: 18px;
+	border-radius: 10px;
+	min-height: 50px;
+	min-width: 125px;
+	
+}
+
+
+#standardB
+{
+	background-color: #0063ab;
+}
+#standardB:hover
+{
+	background-color: #00487d;
+}
+#standardB:active
+{
+	background-color: #5a94bf;
+}
+
+#basicB
+{
+	background-color: #23d420;
+}
+#basicB:hover
+{
+	background-color: #19ad17;
+}
+#basicB:active
+{
+	background-color: #81ff80;
+}

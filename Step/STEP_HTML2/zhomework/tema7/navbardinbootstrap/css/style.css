@@ -1,0 +1,29 @@
+
+
+#navigare
+{
+    background-color: #383838;
+}
+
+#logo
+{
+    color: white;
+    font-size: 46px;
+    font-style: italic;
+    font-family: 'Roboto Slab', serif;
+}
+
+.elementenav
+{
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 3px;
+    background-color: #383838;
+    transition-duration: 0.2s;
+}
+.elementenav:hover
+{
+    color: white;
+    background-color: #ac7a29;
+}

@@ -1,0 +1,85 @@
+body{
+    padding-top: 20px;
+}
+
+.footerbuttonex1{
+    border-radius: 20px;
+    border: 1px solid black;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-weight: bold;
+}
+
+
+
+#mhead{
+    background-color: rgb(39, 143, 212); 
+    color: white;
+    padding: 25px; 
+}
+
+
+.footerbuttonex2{
+    border-radius: 3px;
+    border: 2px solid rgb(39, 143, 212);
+    padding: 15px 35px;
+    font-weight: bold;
+}
+
+
+#codex3{
+    background-color: #ff4946;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 3px;
+    font-size: 26px;
+}
+
+
+.footerbuttonex3{
+    border-radius: 3px;
+    border: 2px solid #ff4946;
+    padding: 12px 30px;
+    font-weight: bold;
+}
+
+
+/* rgb(255, 73, 70)   #ff4946 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#main
+{
+    background-color: gray;
+    
+    
+}
+
+#colw
+{
+    color: white;
+}

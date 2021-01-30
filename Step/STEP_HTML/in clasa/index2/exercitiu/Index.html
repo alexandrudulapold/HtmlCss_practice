@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Hotel</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	
+	
+	<body>
+		
+		<form>
+		
+			<fieldset>
+				
+				<legend>Date hotel/camera</legend>
+					
+				<label>Limba de comunicare</label><br>
+					<input type="checkbox" name="romana" id="romana" value="Romana">
+					<label for="romana">Romana</label><br>
+					<input type="checkbox" name="engleza" id="engleza" value="Engleza">
+					<label for="romana">Engleza</label><br>
+					<input type="checkbox" name="rusa" id="rusa" value="Rusa">
+					<label for="rusa">Rusa</label><br>		
+					<input type="checkbox" name="turca" id="turca" value="Turca">
+					<label for="turca">Turca</label><br><br>	
+				
+				
+				
+				<label for="data_intrarii">Data intrarii</label><br>
+				<input type="date" name="data_intrarii" max="2020-08-24" min="2020-07-24"><br>
+				<label for="data_iesirii">Data iesirii</label><br>
+				<input type="date" name="data_iesirii" max="2020-08-27" min="2020-07-27"><br><br>
+				
+				
+				<label for="tipul_camerei">Tipul camerei :</label><br>
+					<input type="radio" name="tipul_camerei" id="family" value="family">
+					<label>Family</label><br>
+					<input type="radio" name="tipul_camerei" id="standard" value="standard">
+					<label>Standard</label><br>
+					<input type="radio" name="tipul_camerei" id="vip" value="vip">
+					<label>VIP</label><br> <br>
+				
+				<label for="seaview">Sea View :</label><br>
+					<input type="radio" name="seaview" id="yes" value="yes">
+					<label>Yes</label><br>
+					<input type="radio" name="seaview" id="no" value="no">
+					<label>No</label><br> <br>
+				
+				<label for="serv_add">Servicii aditionale :</label><br>
+					<input type="checkbox" name="serv_add" id="telefon" value="telefon">
+					<label>Telefon</label><br>
+					<input type="checkbox" name="serv_add" id="safeu" value="safeu">
+					<label>Safeu</label><br>
+					<input type="checkbox" name="serv_add" id="tvultrahd" value="tvultrahd">
+					<label>TV Ultra HD</label><br>
+					<input type="checkbox" name="serv_add" id="deservire" value="deservire">
+					<label>Deservire in camera</label><br> <br>
+					
+				</fieldset>
+				
+				<fieldset>
+				
+					<legend>Date client</legend>
+						
+					<fieldset>
+						<legend>Adulti</legend>
+							
+						<label>Numar de adulti : </label>
+						<select>
+							<option value="unadult">Un adult</option>
+							<option value="doiadulti" selected="">Doi adulti</option>
+						</select>
+						
+						<fieldset>
+							<legend>Primul adult</legend>
+							<label for="nume">Introdu numele:</label><br>
+							<input type="text" name="nume"><br> <br>
+							<label for="prenume">Introdu prenumele:</label><br>
+							<input type="text" name="prenume"><br> <br>
+							<label for="varsta">Introdu varsta:</label><br>
+							<input type="number" name="varsta" min="18" max="150"><br> <br>
+							
+							<label for="cpas">Copia pasaport:</label>
+							<input type="file" name="cpas">
+						</fieldset>
+						
+						<fieldset>
+							<legend>Al doilea adult</legend>
+							<label for="nume">Introdu numele:</label><br>
+							<input type="text" name="nume"><br> <br>
+							<label for="prenume">Introdu prenumele:</label><br>
+							<input type="text" name="prenume"><br> <br>
+							<label for="varsta">Introdu varsta:</label><br>
+							<input type="number" name="varsta" min="18" max="150"><br> <br>
+							
+							<label for="cpas">Copia pasaport:</label>
+							<input type="file" name="cpas">
+						</fieldset>
+						
+							
+					</fieldset>
+					
+					<fieldset>
+						<legend>Copii</legend>
+							
+						<label>Numar de adulti : </label>
+						<select>
+							<option value="unadult">Un adult</option>
+							<option value="doiadulti" selected="">Doi adulti</option>
+						</select>
+						
+						<fieldset>
+							<legend>Primul adult</legend>
+							<label for="nume">Introdu numele:</label><br>
+							<input type="text" name="nume"><br> <br>
+							<label for="prenume">Introdu prenumele:</label><br>
+							<input type="text" name="prenume"><br> <br>
+							<label for="varsta">Introdu varsta:</label><br>
+							<input type="number" name="varsta" min="18" max="150"><br> <br>
+							
+							<label for="cpas">Copia pasaport:</label>
+							<input type="file" name="cpas">
+						</fieldset>
+						
+						<fieldset>
+							<legend>Al doilea adult</legend>
+							<label for="nume">Introdu numele:</label><br>
+							<input type="text" name="nume"><br> <br>
+							<label for="prenume">Introdu prenumele:</label><br>
+							<input type="text" name="prenume"><br> <br>
+							<label for="varsta">Introdu varsta:</label><br>
+							<input type="number" name="varsta" min="18" max="150"><br> <br>
+							
+							<label for="cpas">Copia pasaport:</label>
+							<input type="file" name="cpas">
+						</fieldset>
+						
+							
+					</fieldset>
+						
+				</fieldset>
+				
+				<fieldset>
+					<legend>Date pentru contactare</legend>
+					
+						<label>Introdceti numarul de telefon</label> <br>
+						<input type="tel" name="telefon" placeholder="+373 (68) - 122 - 122" pattern="[+]{1}[0-9]{3} [0-9]{2}-[0-9]{3}-[0-9]{3}"> <br>
+					
+						<label>Introdceti emailul</label> <br>
+						<input type="email" name="email">
+						
+						
+			</fieldset>
+			
+			
+		</form>
+		
+		
+		
+	</body>
+</html>

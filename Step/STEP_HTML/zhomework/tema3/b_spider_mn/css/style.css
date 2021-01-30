@@ -1,0 +1,36 @@
+body
+{
+	background-image: url("https://files.wallpaperpass.com/2019/09/spiderman%20wallpaper%2060%20-%202560x1440.jpg");
+	background-attachment: fixed; 
+	background-size: cover;
+}
+
+#h1SM
+{
+	color: white;
+	font-size: 60px;
+	font-family: Homoarakhn, sans-serif;
+}
+
+#main
+{
+	float: left;
+	margin-left: 20px;
+	width: 45%;
+	padding: 10px;
+}
+
+#info
+{
+	padding: 1px 20px 1px 20px;
+	background-color: white;
+	font-size: 22px;
+}
+
+#history
+{
+	margin-top: 50px;
+	padding: 1px 20px 1px 20px;
+	background-color: white;
+	font-size: 22px;
+}

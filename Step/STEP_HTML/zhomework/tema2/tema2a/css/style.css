@@ -1,0 +1,36 @@
+#maintext
+{
+	margin-left: 200px;
+	font-family: 'Arial Narrow', Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size: 22px;
+}
+
+.caption
+{
+	font-weight: 801;
+	font-size: 27px;
+}
+
+
+#sidebar
+{
+	font-size: 24px;
+	font-family: 'Arial Narrow', Helvetica, sans-serif;
+	color: white;
+	text-align: center;
+	background-color: gray;
+	float: left;
+	min-height: 1000px;
+	min-width: 120px;
+	margin-top: -27px;
+	margin-left: -8px;
+	padding-top: 35px;
+	/*margin: 0;*/	
+	
+}
+
+.image
+{
+	padding-top: 50px;
+}
